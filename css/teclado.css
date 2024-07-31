@@ -1,0 +1,52 @@
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+.teclado button {
+    padding: 18px;
+    font-size: 1.4rem;
+    border: 2px solid #bbb;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #4b79a1, #283e51);
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.teclado button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.teclado button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.teclado button[data-key="="] {
+    background: linear-gradient(145deg, #56ab2f, #a8e063);
+    border: 2px solid #6c757d;
+}
+
+.teclado button[data-key="="]:hover {
+    background: linear-gradient(145deg, #4caf50, #8bc34a);
+}
+
+.teclado button[data-key="="]:active {
+    background: linear-gradient(145deg, #388e3c, #689f38);
+}
+
+.teclado button[data-key="C"] {
+    background: linear-gradient(145deg, #ff4b2b, #ff416c);
+    border: 2px solid #6c757d;
+}
+
+.teclado button[data-key="C"]:hover {
+    background: linear-gradient(145deg, #ff3d00, #ff5722);
+}
+
+.teclado button[data-key="C"]:active {
+    background: linear-gradient(145deg, #d32f2f, #f44336);
+}

@@ -1,0 +1,13 @@
+.screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eaeaea;
+    font-size: 2.5rem;  
+    height: 80px;      
+    color: black;       
+    margin-bottom: 20px;
+}
